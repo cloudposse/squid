@@ -1,5 +1,7 @@
 FROM ubuntu:14.04
 
+MAINTAINER  Erik Osterman "e@osterman.com"
+
 ENV SQUID_USERNAME squid
 ENV SQUID_PASSWORD password
 ENV SQUID_LOCALNET 10.0.0.0/8
